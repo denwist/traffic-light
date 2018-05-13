@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface input {
+public interface Input {
     int enterNumber();
 }

@@ -1,6 +1,6 @@
 package utils;
 
-import interfaces.input;
+import interfaces.Input;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 29.04.2018
  */
 
-public class ConsoleInput implements input {
+public class ConsoleInput implements Input {
     private Scanner scanner;
 
     public ConsoleInput() {

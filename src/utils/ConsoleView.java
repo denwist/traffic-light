@@ -1,6 +1,6 @@
 package utils;
 
-import interfaces.view;
+import interfaces.View;
 
 /**
  * Визуальное отображение в консоли
@@ -8,7 +8,7 @@ import interfaces.view;
  * 29.04.2018
  */
 
-public class ConsoleView implements view {
+public class ConsoleView implements View {
     @Override
     public void showLine(String... strings) {
         StringBuilder stringBuilder = new StringBuilder("");
